@@ -51,4 +51,9 @@ public class Robot {
     public void setDirection (int direction) {
         this.direction = direction;
     }
+
+    public Rectangle getRect () {
+        Rectangle rectangle = new Rectangle(this.x, this.y, this.size, this.size);
+        return rectangle;
+    }
 }
